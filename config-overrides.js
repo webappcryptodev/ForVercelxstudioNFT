@@ -7,7 +7,7 @@ module.exports = function override(config) {
   config.ignoreWarnings = [/Failed to parse source map/];
 
   Object.assign(fallback, {
-    // crypto: require.resolve("crypto-browserify"),
+    crypto: require.resolve("crypto-browserify"),
     stream: require.resolve("stream-browserify"),
     assert: require.resolve("assert"),
     http: require.resolve("stream-http"),
