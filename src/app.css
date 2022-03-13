@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Roboto:wght@400;500;700&family=Sora:wght@400;500;600;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 90%;
+  outline: none;
+}
+html, body{
+  overflow-x: hidden;
+}
+/* .trans {
+  transition: all 0.3s linear;
+} */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+p {
+  /* color: #a5afc1 !important; */
+  font-size: 16px;
+}
+@media (min-width: 1024px) {
+  .banner {
+    background: url(./assets/img/bg/Frame.svg);
+    background-position: top left;
+    background-size: contain;
+  }
+}
+@media (min-width: 1200px) {
+  .__bann49::before {
+    content: "" !important;
+  }
+  .__bann49::after {
+    content: "" !important;
+  }
+}
+@media (max-width: 1400px) {
+  .__bann498::after {
+    display: none;
+  }
+}
+@media (min-width: 1401px) {
+  .__bann498::after {
+    content: "" !important;
+  }
+}
+/* a:hover {
+  color: #fff;
+  font-size: 12px;
+} */
+
+/* Custom-Container */
+.wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1400px) {
+  .wrapper {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 800px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1510px) {
+  .wrapper {
+    max-width: 1400px;
+  }
+}
+
+/* Switch */
+.switch-input {
+  display: none;
+}
+
+.switch-input:checked + .slider {
+  background: #FFC350;
+}
+.switch-input:checked + .slider::before {
+  height: 18px !important;
+  width: 18px !important;
+  background: #fff !important;
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.switch-input:focus + .slider {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 45px;
+  height: 23px;
+  background-color: #201f23;
+  box-shadow: rgba(0, 35, 11, 0.2) 0px 2px 4px 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 3px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Edit profile style */
+
+.edit_profile .profile-img .pro_img.is_active {
+  position: relative;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 17px 13px 0px #192c4b05;
+          box-shadow: 0px 17px 13px 0px #192c4b05;
+  position: relative;
+  position: relative;
+}
+
+.edit_profile .profile-img .pro_img.is_active::before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: url(./assets/img/icons/Badge.svg);
+  right: -15px;
+  top: -15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.edit_profile .profile-img .pro_img.is_active::after {
+  content: "";
+  position: absolute;
+  height: calc(100% + 10px);
+  width: calc(100% + 12px);
+  background: #FFC350;
+  border-radius: 12px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.in__profile {
+  position: relative;
+  border: 1px dashed #b7c5db;
+  border-radius: 0px;
+  text-align: center;
+  height: 100%;
+  -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  background: #fff;
+  padding: 15px 40px;
+}
+.in__profile input[type="file"], .__avupload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* Create */
+
+.box.in__upload .left__part {
+  border: 2px dashed #9ba7b9;
+  border-radius: 0px;
+  text-align: center;
+  padding: 40px;
+  background: #edf2f7;
+  height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .box.in__upload .left__part {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+.upload_file {
+  position: relative;
+}
+
+.upload_file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}

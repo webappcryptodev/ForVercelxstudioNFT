@@ -1,0 +1,44 @@
+[
+  {
+    "img": "cover_1.png",
+    "avatar": "avatar_1.png",
+    "sold": "191",
+    "colec": "345",
+    "views": "17,005"
+  },
+  {
+    "img": "cover_2.png",
+    "avatar": "avatar_2.png",
+    "sold": "142",
+    "colec": "255",
+    "views": "14,045"
+  },
+  {
+    "img": "cover_3.png",
+    "avatar": "avatar_3.png",
+    "sold": "150",
+    "colec": "345",
+    "views": "20,033"
+  },
+  {
+    "img": "cover_4.png",
+    "avatar": "avatar_4.png",
+    "sold": "87",
+    "colec": "142",
+    "views": "23,575"
+  },
+  {
+    "img": "cover_5.png",
+    "avatar": "avatar_5.png",
+    "sold": "198",
+    "colec": "321",
+    "views": "12,024"
+  },
+  {
+    "img": "cover_6.png",
+    "avatar": "avatar_6.png",
+    "sold": "234",
+    "colec": "345",
+    "views": "12,053"
+  }
+]

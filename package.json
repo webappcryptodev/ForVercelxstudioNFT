@@ -1,0 +1,94 @@
+{
+  "name": "studio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@material-tailwind/react": "^0.3.4",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "@web3-react/walletlink-connector": "^6.2.13",
+    "aos": "^2.3.4",
+    "axios": "^0.25.0",
+    "daisyui": "^1.22.2",
+    "ethers": "^5.6.0",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^5.5.5",
+    "gsap": "^3.9.1",
+    "nanoid": "^3.2.0",
+    "notiflix": "^3.2.2",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-loading-overlay": "^1.0.1",
+    "react-modal": "^3.14.4",
+    "react-persist": "^1.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.0",
+    "react-share": "^4.4.0",
+    "react-spinners": "^0.11.0",
+    "react-transition-group": "^4.4.2",
+    "react-upload-gallery": "^0.4.0",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "slugify": "^1.6.5",
+    "styled-components": "^5.3.3",
+    "truncate": "^3.0.0",
+    "web-vitals": "^2.1.2",
+    "web3": "^1.7.0",
+    "web3modal": "^1.9.5",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "assert": "^2.0.0",
+    "autoprefixer": "^10.4.1",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "postcss": "^8.4.5",
+    "react-app-rewired": "^2.1.11",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.0.11",
+    "url": "^0.11.0"
+  }
+}
